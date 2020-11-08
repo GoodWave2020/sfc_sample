@@ -6,13 +6,13 @@
       <h1 v-if='show' style='text-align: center;'>{{ message }}</h1>
     </transition>
   </div>
-</template>
+</template>4
 
 <script>
 export default {
   data: function () {
     return {
-      message: "うんち!!!!!",
+      message: "Hello Vue.js",
       show: true
     }
   }
